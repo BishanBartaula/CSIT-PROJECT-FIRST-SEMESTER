@@ -1,0 +1,60 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid transparent;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    border-color: #0ea5e9;
+}
+
+.card-type {
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.type-Scholarship {
+    background: #1e40af;
+    color: #dbeafe;
+}
+
+.type-Internship {
+    background: #065f46;
+    color: #dbeafe;
+}
+
+.type-Event {
+    background: #9f1239;
+    color: #dbeafe;
+}
+
+.freePayment {
+    background-color: green;
+    color: #f1f2f3;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.paidPayment {
+    background-color: #d4af37;
+    color: #f1f2f3;
+    border-radius: 5px;
+    padding: 4px;
+}

@@ -3,21 +3,21 @@
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 17px;
-    background: #333;
-    padding: 7px;
+    gap: 30px;
+    /* background: #333; */
+    padding: 13px 17px 13px;
 }
 
 .filter span{
-    width: calc(50%+ 50px);   
+    width: 30%;   
     background-color: #127712;
     border-radius: 30px;
     padding: 5px;
     user-select: none;
 }
 .filter span:hover{
-    scale: 1.2;
+    scale: 1.1;
 }
 .filter span:active{
-    background-color: #333;
+    background-color: #33a833;
 }
