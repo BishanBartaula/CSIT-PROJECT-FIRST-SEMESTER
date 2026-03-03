@@ -16,8 +16,9 @@
     user-select: none;
 }
 .filter span:hover{
-    scale: 1.1;
+    scale: 1.05;
 }
 .filter span:active{
-    background-color: #33a833;
+    transform: scale(1.01);
+    background-color: red;
 }

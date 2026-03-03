@@ -30,17 +30,17 @@
     letter-spacing: 0.5px;
 }
 
-.type-Scholarship {
+.type-Scholarship, #Scholarship{
     background: #1e40af;
     color: #dbeafe;
 }
 
-.type-Internship {
+.type-Internship, #Internship {
     background: #065f46;
     color: #dbeafe;
 }
 
-.type-Event {
+.type-Event, #Event {
     background: #9f1239;
     color: #dbeafe;
 }
